@@ -24,14 +24,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change SAT0 to SATA</string>
-					<key>Find</key>
-					<data>U0FUMA==</data>
-					<key>Replace</key>
-					<data>U0FUQQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change _OSI to XOSI</string>
 					<key>Disabled</key>
 					<false/>
@@ -39,6 +31,14 @@
 					<data>X09TSQ==</data>
 					<key>Replace</key>
 					<data>WE9TSQ==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change SAT0 to SATA</string>
+					<key>Find</key>
+					<data>U0FUMA==</data>
+					<key>Replace</key>
+					<data>U0FUQQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -220,6 +220,26 @@
 				<string>AppleIntelFramebufferAzul</string>
 				<key>Replace</key>
 				<data>AQUSAAAIAAAGAAAA</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.10-Azul-Port_0x6-DP2HDMI</string>
+				<key>Find</key>
+				<data>AgQKAAAEAACHAAAA</data>
+				<key>Name</key>
+				<string>AppleIntelFramebufferAzul</string>
+				<key>Replace</key>
+				<data>AgQSAAAIAAAGAAAA</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10.10-Azul-Port_0x7-DP2HDMI</string>
+				<key>Find</key>
+				<data>AwYIAAAEAAARAAAA</data>
+				<key>Name</key>
+				<string>AppleIntelFramebufferAzul</string>
+				<key>Replace</key>
+				<data>AwYSAAAIAAAGAAAA</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
